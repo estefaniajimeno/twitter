@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../../assets/img/bicicleta.jpg");
+	background-size: cover;
+
+}
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 15px;
+	color: white;
+	background: #FA8072;
+	border: 1px;
+	height: 47px;
+}
+.div1{
+	
+	padding-top: 15px;
+	background: white;
+	border: 1px;
+	height: 200px;
+	width: 400px;
+	margin-left: 70px;
+	margin-top: 5px;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+p{
+	padding-top: 20px;
+	font-family: tahoma;
+	font-size:13px;
+}
+
+hr{
+	width: 100px;
+	margin-top: 20px;
+	color: grey;
+}
+h4{
+	font-family: tahoma;
+	font-size: 16px;
+	padding-top: 20px;
+	color: #FA8072;
+}
+
+
+#texto{
+	background: white;
+	position:relative;
+	margin-left: 600px;
+	height: 235px;
+	width: 430px;
+	display: inline-block;
+	border-color: white;
+	bottom: 235px;
+
+}
+button{
+	background:#FA8072;
+	color: white;
+	height: 40px;
+	width: 80px;
+	position: absolute;
+	display: inline-block;
+	left: 910px;
+	top:230px;
+	border-color: #FA8072;
+	border-radius: 4px;
+}
+.div{
+	background: white;
+	display: inline-block;
+}
