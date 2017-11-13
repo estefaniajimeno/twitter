@@ -15,11 +15,37 @@ window.onload = function() {
             tuitDiv.appendChild(dateSpan);
             tuitDiv.appendChild(tuitP);
             tuitDiv.className = "tuit"
-            nameSpan.textContent = "written " ;
+            nameSpan.textContent = "written" ;
             dateSpan.textContent = new Date();
             tuitP.textContent = text.value;
             timeLine.insertBefore(tuitDiv, timeLine.children[0]);
-        }
-    }
-}
+         
 
+            }
+         }
+    }
+
+     function contar(){
+        var maximo = 140;
+        var cadena = "";
+        var caracteres= document.getElementById("texto").value.length;
+        cadena = maximo-caracteres;
+        document.getElementById("inputcaracteres").value=cadena;
+
+        if(cadena<0){
+            inputcaracteres.style.color="blue";
+            }
+        else if (cadena>=0 && cadena<120) {
+            inputcaracteres.style.color="green";
+        }
+        else if (cadena>=120 && cadena<130) {
+            inputcaracteres.style.color="yellow";
+        }
+        else  {
+            inputcaracteres.style.color="black";
+        }
+
+    }
+
+    
+   

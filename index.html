@@ -11,20 +11,20 @@
 	
 	<div class="div1">
 	<h3>Reto de Código</h3>
-	<p>Hola,<br>soy front-end developer jr.<p>
+	<h2>Hola,<br>soy front-end developer jr.<h2>
 	<hr>
 	<h4>código</h4>
 	</div>
 
-	<div>
+	<div class="div2">
         
-        <textarea id="texto"></textarea>
+        <textarea id="texto" onKeyDown="contar()" onKeyUp="contar()"></textarea>
         <button name="tweet">Tweet</button>
+    	<input  id="inputcaracteres"  placeholder="140"  disabled >
     </div>
+    
     <div name="timeLine">
-        <p>
-            your Timeline...
-        </p>
+      
     </div>
 
 <script type="text/javascript" src="assets/js/app.js"></script>
